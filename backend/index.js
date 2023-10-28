@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose
-  .connect("mongodb://localhost:27017/fooddelivery")
+  .connect("mongodb+srv://yadavnishant2511:<password>@cluster0.maib57j.mongodb.net/?retryWrites=true&w=majority")
   .then(() => {
     console.log("Connected");
   })
